@@ -10,19 +10,19 @@ module.exports = {
         allowNull : false,
       },
       name:{
-        type : sequelize.STRING,
+        type : Sequelize.STRING,
         allowNull : false,
       },
       email:{
-        type : sequelize.STRING,
+        type : Sequelize.STRING,
         allowNull : false,
       },
       created_at:{
-        type : sequelize.DATE,
+        type : Sequelize.DATE,
         allowNull : false,
       },
       updated_at:{
-        type : sequelize.DATE,
+        type : Sequelize.DATE,
         allowNull : false,
       },
 
